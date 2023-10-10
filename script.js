@@ -169,7 +169,6 @@ btnLoan.addEventListener('click', function (event) {
     currentAccount.movements.some(mov => mov >= loamAmount * 0.1)
   ) {
     currentAccount.movements.push(loamAmount);
-
     updateUI(currentAccount);
   }
   inputLoanAmount.value = '';
