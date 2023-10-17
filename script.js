@@ -39,8 +39,26 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US',
 };
+const account3 = {
+  owner: 'Natalia Havashi',
+  movements: [200, 450, -400, 3000, -650, -130, 70, 3300],
+  interestRate: 1.2, // %
+  pin: 1111,
+  movementsDates: [
+    '2020-01-28T09:15:04.904Z',
+    '2020-04-01T10:17:24.185Z',
+    '2023-10-11T14:11:59.604Z',
+    '2023-10-12T17:01:17.194Z',
+    '2023-10-13T23:36:17.929Z',
+    '2023-10-14T10:51:36.790Z',
+    '2023-10-15T10:17:24.185Z',
+    '2023-10-16T10:17:24.185Z',
+  ],
+  currency: 'EUR',
+  locale: 'pt-PT', // de-DE
+};
 
-const accounts = [account1, account2];
+const accounts = [account1, account2,account3];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
