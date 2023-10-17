@@ -43,7 +43,7 @@ const account3 = {
   owner: 'Natalia Havashi',
   movements: [200, 450, -400, 3000, -650, -130, 70, 3300],
   interestRate: 1.2, // %
-  pin: 1111,
+  pin: 3333,
   movementsDates: [
     '2020-01-28T09:15:04.904Z',
     '2020-04-01T10:17:24.185Z',
@@ -54,8 +54,8 @@ const account3 = {
     '2023-10-15T10:17:24.185Z',
     '2023-10-16T10:17:24.185Z',
   ],
-  currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  currency: 'UKR', 
+  locale: 'ua-UA', // de-DE
 };
 
 const accounts = [account1, account2,account3];
